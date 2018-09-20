@@ -1,0 +1,72 @@
+#background{
+	background-color: #ff4d4d;
+}
+
+.dropbtn {
+	background-color: #3221E6;
+	width:90px;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	text-align:center;
+}
+
+.centeredtext{
+	padding:2px;
+	font-size:38px;
+	border-radius: 18px;
+	width: 800px;
+	height: 80px;
+	background-color: #002b80;
+	color:white;
+	border-radius: 18px;
+	text-align:center;
+}
+
+.text {
+	color:white;
+	font-size:12px;
+}
+
+#button{
+	width:90px;
+	margin: 15px;
+	background-color: #002b80;
+	line-height: 30px;
+	text-align:center;
+	color:white;
+	border-radius: 9px;
+	box-shadow: 0px 0px 2px rgba(172, 160, 162, 0.2),
+		1px 1px 3px rgba(160, 41, 41, 0.2);
+	cursor: pointer;
+}
+#button:hover{
+	background-color: #6699ff;
+}
+
+#nextbutton{
+	width:150px;
+	margin: 15px;
+	background-color: #00A1C9;
+	line-height: 30px;
+	text-align:center;
+	color:white;
+	border-radius: 9px;
+	box-shadow: 0px 0px 2px rgba(172, 160, 162, 0.2),
+		1px 1px 3px rgba(160, 41, 41, 0.2);
+	cursor: pointer;
+}
+#nextbutton:hover{
+	background-color: #0B08EE;
+}
+
+#Eventlist{
+	color:white;
+	font-size:20px;
+}
+#checkstatus{
+	color:white;
+	font-size:18px;
+}
