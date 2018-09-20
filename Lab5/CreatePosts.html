@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>CreatePosts</title>
+			<center>
+                <h1 center>Create a New Post</h1>
+            </center>
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <!-- <script type="text/javascript" src="formChecker.js"></script> -->
+	</head>
+
+	<body>
+        <form action="CreatePosts.php" method="post">
+            <center>
+            <div>
+                <p>Enter Your User Name: <input placeholder='Your User Name' type="text" name='UserName' required value=''></p>
+                <p>Write a post:</p>
+                <p><textarea rows="4" cols="50" placeholder='Your Post text here.' name="PostText"></textarea></p>
+                <input name="submit" type="submit" value="Submit">
+            </div>
+            </center>
+        </form>
+        <center><a href="UserInterface.html"><button id="button">Back</button></a></center>
+	</body>
+</html>

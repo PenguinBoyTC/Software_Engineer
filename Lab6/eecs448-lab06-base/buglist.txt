@@ -1,0 +1,35 @@
+Here is the list of Failed test:
+
+Test 6: isEmpty return true when list is empty.
+The error output: The isEmpty() always return true whenever the list is empty or not.
+
+Test 7: size returns correct value after adds and removeFront.
+The error output: After using removeFront multiple times, the size of the list never be changed.
+
+Test 8: size returns correct value after adds and removeBack. 
+The error output: After using removeBack multiple times, the size of the list never be changed.
+
+Test 11: removeFront on empty list returns false; On non-empty list return true.
+The error output: The removeFront() always return false whenever the list is empty or not.
+
+Test 12: removeBack on empty list returns false; On non-empty list return true.
+The error output: The removeBack() always return false whenever the list is empty or not.
+
+Test 14: addBack add each element to the back of the list.
+The error output: The addBack() add each element to the front of the list, not the back of the list.
+
+Test 15: removeFront remove each element from the front of the list.
+The error output: After using removeFront multiple times, all the nodes of the list is still in the list.
+
+Test 16: removeBack remove each element from the back of the list.
+The error output: After using removeBack multiple times, all the nodes of the list is still in the list.
+
+Test 17: Destructor should Deletes all nodes in the list.
+The error output: Destructor delete 0 nodes from the list where has 50 nodes.
+
+Guessing:
+1. ~LinkedListOfInts(): The Destructor doesn't delete any node from the list. 
+2. isEmpty(): This method doesn't work and always return true whenever the list is empty or not.
+3. removeFront(): This method doesn't work. It cannot remove any node from the list, and always return false whenever the list is empty or not.
+4. removeBack(): This method doesn't work. It cannot remove any node from the list, and always return false whenever the list is empty or not.
+5. addBack(): This method works but it adds each element to the front of the list(it looks the same as addFront method). It should adds element to the back of the list.

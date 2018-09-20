@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Coustomer</title>
+			<center>
+                <h1 id= "headline" center>Welcome to my PPAP Store!</h1>
+            </center>
+            <img id="pic" src="Webstore.jpg">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="formChecker.js"></script>
+	</head>
+
+	<body id="bodytop">
+        <form action="customerBackend.php" method="post" onsubmit="return checker()">
+            <div id="acount">
+                <center><p>User name: <input type=email id="username" name="username" maxlength="20">
+                password: <input type=password id="password" name="password" minlength="8" maxlength="16"></p></center>
+            </div>
+            <div id= "product1">
+                <div>
+                    <center><img id ="image1" src="1.jpg"></center>
+                </div>
+                <div>
+                    <center>
+                    <h2>Apple</h2>
+                    <p>Price: $2.00</p>
+                    <p>The number of Items: <input type="number" id="number1" name="number1" value = "0" style="width: 50px;" min="0" max="99"></p>
+                    </center>
+                </div>
+            </div>
+
+            <div id= "product2">
+                <div>
+                    <center><img id ="image2" src="2.jpg"></center>
+                </div>
+                <div>
+                    <center>
+                    <h2>Pen</h2>
+                    <p>Price: $4.00</p>
+                    <p>The number of Items: <input type="number" id="number2" name="number2" value = "0" style="width: 50px;" min="0" max="99"></p>
+                    </center>
+                </div>
+            </div>
+
+            <div id= "product3">
+                <div>
+                    <center><img id ="image3" src="3.jpg"></center>
+                </div>
+                <div>
+                    <center>
+                    <h2>Pineapple</h2>
+                    <p>Price: $6.00</p>
+                    <p>The number of Items: <input type="number" id="number3" name="number3" value = "0" style="width: 50px;" min="0" max="99"></p>
+                    </center>
+                </div>
+            </div>
+            <div id ="ship">
+                <center><p>Types of shipping:
+                <select id = "shipping" name="shipping">
+                    <option value="0">Free 7 day</option>
+                    <option value="50">$50.00 over night</option>
+                    <option value="5">$5.00 three day</option>
+                </select>  
+                </p></center>
+            </div>
+            <div id="button">
+                <input id="submitbutton" type="submit" value="Submit">
+                <input id="resetbutton" type="reset" value="reset">
+            </div>
+        </form>
+	</body>
+</html>
